@@ -1,0 +1,34 @@
+1]
+set path
+
+set PATH=C:\Users\bbaliram\AppData\Local\Programs\Python\Python311;%PATH%
+
+set PATH=C:\Users\bbaliram\AppData\Local\Programs\Python\Python311\Scripts;%PATH%
+
+2]
+go to virtual envirnment path -  C:\Users\bbaliram\Dev\Projects\Virtual env
+activate it & check an path where u have path
+ cd../../
+
+
+myenv\Scripts\activate
+
+3]
+go to project path - C:\Users\bbaliram\Dev\Projects\Changes UI for Gen AI
+ 
+ cd../../
+ cd Changes UI for Gen AI\BackEnd2\server>
+
+ cls
+
+all steps directed copy paste in cmd to start server
+    note your path is diffrent so check for the same
+    
+
+cd C:\Users\bbaliram\Dev\Projects\Virtual env
+myenv\Scripts\activate
+set PATH=C:\Users\bbaliram\AppData\Local\Programs\Python\Python311;%PATH%
+set PATH=C:\Users\bbaliram\AppData\Local\Programs\Python\Python311\Scripts;%PATH%
+cls
+python server.py
+
