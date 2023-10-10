@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 from PIL import Image
-from src import *
+from PromptGeneration_ui.src import *
 import src.myappv4 as app
 import Unit_TestCases.src.appv1 as apptc
 
