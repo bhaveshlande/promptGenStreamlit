@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Unit-Test-Generation.iml" filepath="$PROJECT_DIR$/.idea/Unit-Test-Generation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Prompt Generation.iml" filepath="$PROJECT_DIR$/.idea/Prompt Generation.iml" />
     </modules>
   </component>
 </project>

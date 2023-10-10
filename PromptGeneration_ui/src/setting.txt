@@ -24,11 +24,23 @@ go to project path - C:\Users\bbaliram\Dev\Projects\Changes UI for Gen AI
 all steps directed copy paste in cmd to start server
     note your path is diffrent so check for the same
     
-
-cd C:\Users\bbaliram\Dev\Projects\Virtual env
+cd "C:\Users\bbaliram\Dev\Projects\Virtual env"
 myenv\Scripts\activate
 set PATH=C:\Users\bbaliram\AppData\Local\Programs\Python\Python311;%PATH%
 set PATH=C:\Users\bbaliram\AppData\Local\Programs\Python\Python311\Scripts;%PATH%
 cls
+cd "C:\Users\bbaliram\Dev\Projects\prompt Generation with StreamLit\spe_genai_enablers-ui_integration\AWS-Squad\Prompt Generation"
+streamlit run streamlit_app.py
+
+cd "C:\Users\bbaliram\Dev\Projects\Virtual env"
+myenv\Scripts\activate
+$env:PATH = "C:\Users\bbaliram\AppData\Local\Programs\Python\Python311;" + $env:PATH
+$env:PATH = "C:\Users\bbaliram\AppData\Local\Programs\Python\Python311\Scripts;" + $env:PATH
+clear
+cd "C:\Users\bbaliram\Dev\Projects\prompt Generation with StreamLit\spe_genai_enablers-ui_integration\AWS-Squad\Prompt Generation"
+streamlit run streamlit_app.py
+
+
+
 python server.py
 
